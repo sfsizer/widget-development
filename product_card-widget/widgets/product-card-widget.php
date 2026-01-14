@@ -378,5 +378,3 @@ class Elementor_Card_Widget extends \Elementor\Widget_Base {
 
 	
 }
-
-git remote add origin https://github.com/sfsizer/widget-development.git
