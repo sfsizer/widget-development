@@ -1,0 +1,151 @@
+
+.glass-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../images/pexels-karolina-grabowska-5713817.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.glass-card {
+    position: relative;
+    display: flex;
+    padding: 80px 40px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+
+}
+
+.box {
+    position: relative;
+    border-radius: 20px;
+    transform-style: preserve-3d;
+}
+
+.box .card {
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    width: 300px;
+    min-height: 400px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.75);
+    border-left: 1px solid rgba(255, 255, 255, 0.75);
+    border-radius: 20px;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.5);
+    transform-style: preserve-3d;
+}
+
+.elements {
+    position: absolute;
+    top: 50px;
+    left: -30px;
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateZ(80px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.75);
+    border-left: 1px solid rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.5);
+}
+
+.elements.bg::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url(https://i.postimg.cc/q7qfMwnK/quote.png);
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.box:hover .elements.bg::before {
+    opacity: 1;
+}
+
+.elements.imgbx {
+    top: -20px;
+    left: initial;
+    right: 60px;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    transform: translateZ(120px);
+}
+
+.elements.imgbx img {
+    position: absolute;
+    width: calc(100% - 20px);
+    border-radius: 8px;
+    height: calc(100% - 20px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.75);
+    border-left: 1px solid rgba(255, 255, 255, 0.75);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.box:hover .elements.imgbx img {
+    opacity: 1;
+}
+
+.elements.name {
+    top: 235px;
+    left: initial;
+    right: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: right;
+    transform: translateZ(180px);
+    background: transparent;
+    backdrop-filter: blur(0px);
+    border: none;
+    box-shadow: none;
+    color: #644651;
+    transition: 0.5s;
+    transition-delay: 0.25s;
+    opacity: 0;
+}
+
+.box:hover .elements.name {
+    top: 135px;
+    opacity: 1;
+}
+
+.elements.content {
+    top: initial;
+    left: initial;
+    bottom: -20px;
+    right: -20px;
+    width: 85%;
+    min-height: 200px;
+    padding: 10px;
+    transform: translateZ(180px);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elements.content p {
+    position: relative;
+    color: #644651;
+    font-size: 0.85em;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    opacity: 0;
+}
+
+.box:hover .elements.content p {
+    opacity: 1;
+}

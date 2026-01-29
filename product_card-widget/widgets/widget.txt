@@ -1,0 +1,44 @@
+<div class="skills">
+        <div class="card">
+            <div class="lines"></div>
+            <div class="imgbx">
+                <img src="images/creativity.png" alt="">
+            </div>
+            <div class="content">
+                <div class="details">
+                    <h2>Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, saepe cumque temporibus optio
+                        at odit.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="lines"></div>
+            <div class="imgbx">
+                <img src="images/coding.png" alt="">
+            </div>
+            <div class="content">
+                <div class="details">
+                    <h2>Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, saepe cumque temporibus optio
+                        at odit.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="lines"></div>
+            <div class="imgbx">
+                <img src="images/rocket.png" alt="">
+            </div>
+            <div class="content">
+                <div class="details">
+                    <h2>Launch</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, saepe cumque temporibus optio
+                        at odit.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>

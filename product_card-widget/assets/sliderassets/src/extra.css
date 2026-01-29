@@ -1,0 +1,19 @@
+.slick-list {
+            margin-left: -10px;
+            margin-right: -10px;
+        }
+
+        .slider-wrapper {
+            padding: 0 10px;
+        }
+
+        .slick-carousel .slick-arrow {
+            position: absolute;
+            right: 0;
+            top: -50px;
+            cursor: pointer;
+        }
+
+        .slick-carousel .slick-prev {
+            right: 40px;
+        }
