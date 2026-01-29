@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Shahriar Widget
  * Description: Custom widget for Elementor.
- * Plugin URI:  https://elementor.com/
+ * Plugin URI:  https://github.com/sfsizer/widget-development
  * Version:     1.0.0
  * Author:      Md. Shahriar
  * Author URI:  https://shahriar-portfolio-static.vercel.app/
