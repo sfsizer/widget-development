@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: Elementor Card Widget
- * Description: Card widget for Elementor.
+ * Plugin Name: Shahriar Widget
+ * Description: Custom widget for Elementor.
  * Plugin URI:  https://elementor.com/
  * Version:     1.0.0
- * Author:      Elementor Developer
- * Author URI:  https://developers.elementor.com/
+ * Author:      Md. Shahriar
+ * Author URI:  https://shahriar-portfolio-static.vercel.app/
  * Text Domain: custom-card
  *
  * Requires Plugins: elementor
